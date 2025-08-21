@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Mozilla+Text:wght@200..700&family=Poppins:ital,wght@0,400;0,500;1,400;1,500&family=Ubuntu:ital@0;1&family=Varela+Round&display=swap');
+
+html{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: rgb(15, 13, 119);
+  margin:0;
+  padding:0;
+  color:white;
+  font-family:'poppins',sans-serif;
+  height: 900px;
+}
+img{
+   height:15vh;
+   width:auto;
+   
+}
+
+.navbar{
+  height:15vh;
+  width:100vw;
+  background-color: rgb(22, 22, 75);
+  justify-content: center;
+  padding:10 20px;
+  
+}
+h1{
+  font-size: 2rem;
+  align-items: center;
+  justify-content: center;
+  display:flex;
+  margin: 0;
+  font-family: "Mozilla Text", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  
+}
+ul{
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+  
+}
+ ul li a{
+  display:flex;
+   justify-content: space-around;
+   align-items: center;
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   color:white;
+   text-decoration:none;
+   font-family: "Mozilla Text", sans-serif;
+   font-optical-sizing: auto;
+   font-style: normal;
+}
+ul li a:hover{
+  color:rgb(156, 156, 228);
+  font-size: 1.06rem;
+  transition: 0.2s;
+  
+}
+.company-bg{
+  background-image:url("Hindalco\ company.jpg");
+  height:400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat; /* Optional: Prevents repeating */
+  width: 100vw;
+  height: 70vh;
+}
+.form{
+    width:250px;
+    height:280px;
+    background:linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    position:absolute;
+    top:-20px;
+    left:870px;
+    border-radius:10px;
+    padding:25px;
+    margin-top: 300px;
+    margin-left: 360px;
+}
+.form h2{
+    width:220px;
+    font-family:sans-serif;
+    text-align:center;
+    color:#2b21b8;
+    font-size:22px;
+    background-color:#fff;
+    border-radius:10px;
+    margin:2px;
+    padding:8px;
+}
+.form input{
+    width:240px;
+    height:35px;
+    background:transparent;
+    border-bottom:1px solid #2b21b8;
+    border-top:none;
+    border-right:none;
+    border-left:none;
+    color:#fff;
+    font-size:15px;
+    letter-spacing:1px;
+    margin-top:30px;
+    font-family:sans-serif;
+
+}
+.form input:focus{
+    outline:none;
+}
+::placeholder{
+    color:#fff;
+    font-family:Arial, Helvetica, sans-serif;
+    background: transparent;
+}
+.btn{
+  border-radius:5px;
+}
+.btnn{
+    width:240px;
+    height:40px;
+    background:#2b21b8;
+    border:none;
+    margin-top:30px;
+    font-size:18px;
+    border-radius:10px;
+    cursor:pointer;
+    color:#fff;
+    transition:0.4s ease;
+}
+.btnn{
+    background:#fff;
+    color:#2b21b8;
+}
+.btnn a{
+    text-decoration:none;
+    color:#000;
+    font-weight:bold;
+}
+.form.link{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:17px;
+    padding-top:20px;
+    text-align:center;
+}
+a {
+    color: white;
+    justify-content: space-evenly;
+}
+a:hover{
+  color:rgb(111, 109, 222);
+}
+#login{
+  color:#211f89;
+  border-radius: 20px;
+}
+.form.link a{
+    text-decoration:none;
+    color:#2b21b8;
+}
+.liw{
+    padding-top:15px;
+    padding-bottom:10px;
+    text-align:center;
+
+}
+.icons a{
+    text-decoration:none;
+    color:#fff;
+}
+.icons ion-icon{
+    color:#fff;
+    font-size:30px;
+    padding-left:14px;
+    padding-top:5px;
+    transition:0.2s ease;
+}
+.icon ion-icon:hover{
+    color:#2b21b8;
+} 
+.fa-brands{
+  margin-left:25px;
+}
+footer{
+    margin-top:15px;
+}
+.foot-panel{
+  color:#1c1673;
+  background-color:white;
+  font-size:0.85rem;
+  align-items:center;
+  justify-content:center;
+  display:flex;
+  font-family:"Mozilla Text", sans-serif;
+
+}
+/*
+.foot-panel2{
+  color:white;
+  background-color:rgb(94, 115, 232);
+   height:500px;
+
+    justify-content:space-evenly;
+
+} */
+
+
+.foot-panel2{
+    background-color:#003064;
+    color:white;
+    height:320px;
+    justify-content:space-evenly;
+
+}
+
+ul a{
+    
+    font-size:1rem;
+    margin-top:2px;
+    padding:2px;
+    justify-items: auto;
+    margin-top:10px;
+    color:#dddddd;
+    display:block;
+
+}
+
+.foot-panel4{
+    background-color:#0f1111;
+    color:white;
+   
+    align-items: center;
+    justify-content: center;
+    height:100px;
+}
+.pages{
+    font-size:0.7rem;
+    text-align:center;
+    padding-top:25px;
+}
+.copyright{
+    padding-top:5px;
+    font-size:0.7rem;
+    margin-left:650px;
+}
